@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#515184, rgb(1, 1, 12));
+}
+
+.wraper {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid black;
+  position: relative;
+  /* aer ========== start */
+  /* ear end============== */
+  /* body start ===================== */
+  /* body end ============= */
+  /* leg start ================ */
+  /* led end ====================== */
+  /* shoe ========s */
+  /*  .row{
+       width: 400px;
+       height: 600px;
+       border: 2px solid white;
+       margin: 30px auto;z-index: -999;
+   } */
+}
+.wraper > .head {
+  width: 100px;
+  height: 120px;
+  /*   border: 2px solid red; */
+  background-color: #b9927e;
+  position: absolute;
+  top: 150px;
+  left: 767px;
+  z-index: 22;
+  transform: translate(-10%, -50%);
+  -webkit-clip-path: polygon(2% 38%, 13% 8%, 47% 0, 85% 7%, 97% 36%, 95% 57%, 85% 82%, 75% 100%, 23% 100%, 15% 82%, 5% 60%);
+          clip-path: polygon(2% 38%, 13% 8%, 47% 0, 85% 7%, 97% 36%, 95% 57%, 85% 82%, 75% 100%, 23% 100%, 15% 82%, 5% 60%);
+}
+.wraper > .head > span:nth-of-type(1),
+.wraper > .head > span:nth-of-type(2) {
+  display: flex;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+          clip-path: ellipse(49% 27% at 50% 50%);
+  -webkit-animation: eye linear forwards 0.4s 5s;
+          animation: eye linear forwards 0.4s 5s;
+}
+@-webkit-keyframes eye {
+  0% {
+    -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+            clip-path: ellipse(49% 27% at 50% 50%);
+  }
+  20% {
+    -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+            clip-path: ellipse(49% 27% at 50% 50%);
+  }
+  30% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+  }
+  40% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+  }
+  50% {
+    -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+            clip-path: ellipse(49% 27% at 50% 50%);
+  }
+  75% {
+    -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+            clip-path: ellipse(49% 27% at 50% 50%);
+  }
+  80% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+  }
+  90% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+    /*  animation-delay: 1; */
+  }
+  100% {
+    -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+            clip-path: ellipse(49% 27% at 50% 50%);
+  }
+}
+@keyframes eye {
+  0% {
+    -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+            clip-path: ellipse(49% 27% at 50% 50%);
+  }
+  20% {
+    -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+            clip-path: ellipse(49% 27% at 50% 50%);
+  }
+  30% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+  }
+  40% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+  }
+  50% {
+    -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+            clip-path: ellipse(49% 27% at 50% 50%);
+  }
+  75% {
+    -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+            clip-path: ellipse(49% 27% at 50% 50%);
+  }
+  80% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+  }
+  90% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+    /*  animation-delay: 1; */
+  }
+  100% {
+    -webkit-clip-path: ellipse(49% 27% at 50% 50%);
+            clip-path: ellipse(49% 27% at 50% 50%);
+  }
+}
+.wraper > .head > span:nth-of-type(1) > span,
+.wraper > .head > span:nth-of-type(2) > span {
+  width: 5px;
+  height: 5px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  -webkit-clip-path: circle(50%);
+          clip-path: circle(50%);
+}
+.wraper > .head > span:nth-of-type(2) {
+  top: 28px;
+  right: 15px;
+}
+.wraper > .head > span:nth-of-type(1) {
+  top: 28px;
+  left: 15px;
+}
+.wraper > .head > span:nth-of-type(3) {
+  width: 45px;
+  height: 30px;
+  display: flex;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-clip-path: ellipse(49% 10% at 50% 50%);
+          clip-path: ellipse(49% 10% at 50% 50%);
+  -webkit-animation: speak linear infinite 0.5s 2s;
+          animation: speak linear infinite 0.5s 2s;
+  /* speak animation -_=============== */
+}
+.wraper > .head > span:nth-of-type(3):hover {
+  -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+          clip-path: ellipse(49% 2% at 50% 50%);
+}
+@-webkit-keyframes speak {
+  0% {
+    -webkit-clip-path: ellipse(49% 10% at 50% 50%);
+            clip-path: ellipse(49% 10% at 50% 50%);
+  }
+  50% {
+    -webkit-clip-path: ellipse(49% 10% at 50% 50%);
+            clip-path: ellipse(49% 10% at 50% 50%);
+  }
+  60% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+  }
+  100% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+  }
+}
+@keyframes speak {
+  0% {
+    -webkit-clip-path: ellipse(49% 10% at 50% 50%);
+            clip-path: ellipse(49% 10% at 50% 50%);
+  }
+  50% {
+    -webkit-clip-path: ellipse(49% 10% at 50% 50%);
+            clip-path: ellipse(49% 10% at 50% 50%);
+  }
+  60% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+  }
+  100% {
+    -webkit-clip-path: ellipse(49% 2% at 50% 50%);
+            clip-path: ellipse(49% 2% at 50% 50%);
+  }
+}
+.wraper > .head > span:nth-of-type(4) {
+  width: 20px;
+  height: 40%;
+  display: flex;
+  background: linear-gradient(5deg, rgba(176, 139, 120, 0.9843137255), rgba(191, 160, 145, 0.9843137255));
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  -webkit-clip-path: polygon(48% 0, 49% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(48% 0, 49% 0, 100% 100%, 0% 100%);
+}
+.wraper > .ear {
+  width: 15px;
+  height: 35px;
+  background-color: #b9927e;
+  position: absolute;
+  left: 746px;
+  top: 120px;
+  border-radius: 20px;
+  -webkit-clip-path: polygon(48% 0, 100% 7%, 100% 100%, 86% 100%);
+          clip-path: polygon(48% 0, 100% 7%, 100% 100%, 86% 100%);
+}
+.wraper > .ear-r {
+  width: 15px;
+  height: 35px;
+  background-color: #b9927e;
+  position: absolute;
+  left: 852px;
+  top: 120px;
+  -webkit-clip-path: polygon(0 11%, 53% 0, 14% 99%, 2% 99%);
+          clip-path: polygon(0 11%, 53% 0, 14% 99%, 2% 99%);
+}
+.wraper .hair {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 757px;
+  top: 65px;
+  /* z-index: -1; */
+}
+.wraper > .body {
+  position: absolute;
+  top: 198px;
+  left: 746.7px;
+  transform: translate(-10%, 0%);
+  width: 150px;
+  height: 200px;
+  background-color: #0e3729;
+  z-index: 1;
+  /*  overflow: hidden; */
+  border-radius: 40px 40px 0 0;
+}
+.wraper > .body > section {
+  width: 100px;
+  height: 200px;
+  position: absolute;
+}
+.wraper > .body > section span {
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  display: flex;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(100% 0, 100% 33%, 64% 46%, 46% 71%, 44% 100%, 19% 100%, 19% 70%, 25% 44%, 40% 15%, 74% 0);
+          clip-path: polygon(100% 0, 100% 33%, 64% 46%, 46% 71%, 44% 100%, 19% 100%, 19% 70%, 25% 44%, 40% 15%, 74% 0);
+}
+.wraper > .body > section span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  display: flex;
+  width: 23px;
+  height: 20px;
+  background-color: #b9927e;
+}
+.wraper > .body > section :nth-of-type(1) {
+  position: absolute;
+  background-color: #0e3729;
+  left: 105px;
+  top: 0px;
+  border-radius: 20px;
+  display: flex;
+  transform: rotateY(180deg);
+}
+.wraper > .body > section :nth-of-type(2) {
+  position: absolute;
+  background-color: #0e3729;
+  left: -55px;
+  top: -8px;
+  border-radius: 20px;
+  display: flex;
+  transform: rotateZ(11deg);
+  z-index: -22;
+  -webkit-animation: hand 2s linear infinite 1s;
+          animation: hand 2s linear infinite 1s;
+}
+@-webkit-keyframes hand {
+  0% {
+    transform: rotateZ(11deg);
+  }
+  20% {
+    transform: rotateZ(11deg);
+  }
+  40% {
+    transform: rotateZ(16deg);
+  }
+  50% {
+    transform: rotateZ(23deg);
+    top: -10px;
+  }
+  70% {
+    transform: rotateZ(57deg);
+    top: -43px;
+  }
+  100% {
+    transform: rotateZ(11deg);
+  }
+}
+@keyframes hand {
+  0% {
+    transform: rotateZ(11deg);
+  }
+  20% {
+    transform: rotateZ(11deg);
+  }
+  40% {
+    transform: rotateZ(16deg);
+  }
+  50% {
+    transform: rotateZ(23deg);
+    top: -10px;
+  }
+  70% {
+    transform: rotateZ(57deg);
+    top: -43px;
+  }
+  100% {
+    transform: rotateZ(11deg);
+  }
+}
+.wraper > .body::after {
+  content: "";
+}
+.wraper > .body > span {
+  display: flex;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: aqua;
+  left: 69px;
+  top: 21px;
+  border-radius: 50%;
+}
+.wraper > .body > span:nth-of-type(2) {
+  top: 40px;
+}
+.wraper > .body > span:nth-of-type(3) {
+  top: 60px;
+}
+.wraper > .body > span:nth-of-type(4) {
+  top: 80px;
+}
+.wraper > .body > span:nth-of-type(5) {
+  top: 100px;
+}
+.wraper > .leg > span {
+  width: 35px;
+  height: 150px;
+  display: flex;
+  background-color: black;
+  position: absolute;
+  top: 380px;
+  left: 742px;
+}
+.wraper > .leg > span:nth-of-type(2) {
+  top: 375px;
+  left: 840px;
+  /*  z-index: -3; */
+  transform: rotateY(180deg);
+}
+.wraper .shoe span {
+  position: absolute;
+  display: flex;
+  width: 100px;
+  height: 60px;
+  background: linear-gradient(45deg, hsl(203deg, 84%, 43%), rgb(92, 57, 16));
+  top: 475px;
+  left: 839px;
+  /*      z-index: -3; */
+  -webkit-clip-path: polygon(49% 68%, 61% 44%, 100% 50%, 100% 100%, 0 100%, 0 85%);
+          clip-path: polygon(49% 68%, 61% 44%, 100% 50%, 100% 100%, 0 100%, 0 85%);
+  transform: perspective(880px) rotateY(180deg);
+}
+.wraper .shoe span:nth-of-type(2) {
+  top: 475px;
+  left: 741px;
+  width: 90px;
+  transform: perspective(880px) rotateY(180deg);
+}/*# sourceMappingURL=master.css.map */
